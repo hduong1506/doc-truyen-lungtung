@@ -10,13 +10,13 @@
   "chapters": [
     {
       "id": 1,
-      "title": "Chương 1: Hệ Thống Ăn Bám Thức Tỉnh",
+      "title": "Chương 1: LỚP TRƯỞNG HẾT PIN",
       "date": "2026-07-03",
       "file": "chapters/chap1.txt"
     },
     {
       "id": 2,
-      "title": "Chương 2: Phú Bà Lạnh Lùng",
+      "title": "Chương 2: CẬU ẤY TỰ NGUYỆN MÀ",
       "date": "2026-07-04",
       "file": "chapters/chap2.txt"
     }
