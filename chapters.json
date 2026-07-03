@@ -1,0 +1,24 @@
+{
+  "book": {
+    "title": "Kẻ Ăn Bám Mười Năm",
+    "author": "Hduowgg",
+    "status": "Đang ra",
+    "genre": "Đô thị, hệ thống, tổng tài",
+    "description": "Sau khi bị phản bội, nam chính thức tỉnh hệ thống ăn bám. Chỉ cần ăn bám phú bà mười năm, hắn sẽ nhận được phần thưởng khủng.",
+    "cover": ""
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Chương 1: Hệ Thống Ăn Bám Thức Tỉnh",
+      "date": "2026-07-03",
+      "file": "chapters/chap1.txt"
+    },
+    {
+      "id": 2,
+      "title": "Chương 2: Phú Bà Lạnh Lùng",
+      "date": "2026-07-04",
+      "file": "chapters/chap2.txt"
+    }
+  ]
+}
