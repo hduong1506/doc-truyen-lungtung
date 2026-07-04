@@ -4,7 +4,7 @@
     "author": "Hduowgg",
     "status": "Đang ra",
     "genre": "Đô thị, hệ thống, tổng tài",
-    "description": "Sau khi bị phản bội, nam chính thức tỉnh hệ thống ăn bám. Chỉ cần ăn bám phú bà mười năm, hắn sẽ nhận được phần thưởng khủng.",
+    "description": "Sau khi bị phản bội, nam chính thức tỉnh hệ thống ăn bám.",
     "cover": ""
   },
   "chapters": [
@@ -19,7 +19,7 @@
       "title": "Chương 2: CẬU ẤY TỰ NGUYỆN MÀ",
       "date": "2026-07-03",
       "file": "chapters/chap2.txt"
-    }
+    },
     {
       "id": 3,
       "title": "Chương 3: NGÀY TÔI NGỪNG QUAY ĐẦU",
