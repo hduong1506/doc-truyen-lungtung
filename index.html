@@ -1411,7 +1411,7 @@ function checkLogin(){
 
 function showApp(){
     const name = localStorage.getItem(LOGIN_KEY) || "Người đọc";
-    document.getElementById("userName").innerText = "Đang đọc: " + name;
+    document.getElementById("userName").innerText = "Ta chính là: " + name;
     document.getElementById("loginPage").style.display = "none";
     document.getElementById("app").style.display = "block";
 
