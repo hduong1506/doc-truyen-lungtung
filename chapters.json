@@ -1,10 +1,10 @@
 {
   "book": {
-    "title": "A1K2-nơi điện ảnh bắt đầu",
+    "title": "Kẻ Ăn Bám Mười Năm",
     "author": "Hduowgg",
     "status": "Đang ra",
     "genre": "Đô thị, hệ thống, tổng tài",
-    "description": "Kẻ Ăn Bám Mười Năm.",
+    "description": "Sau khi bị phản bội, nam chính thức tỉnh hệ thống ăn bám. Chỉ cần ăn bám phú bà mười năm, hắn sẽ nhận được phần thưởng khủng.",
     "cover": ""
   },
   "chapters": [
@@ -25,6 +25,12 @@
       "title": "Chương 3: NGÀY TÔI NGỪNG QUAY ĐẦU",
       "date": "2026-07-04",
       "file": "chapters/chap3.txt"
+    },
+    {
+      "id": 4,
+      "title": "Chương 4: TÔI NUÔI ANH",
+      "date": "2026-07-04",
+      "file": "chapters/chap4.txt"
     }
   ]
 }
