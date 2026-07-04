@@ -17,8 +17,14 @@
     {
       "id": 2,
       "title": "Chương 2: CẬU ẤY TỰ NGUYỆN MÀ",
-      "date": "2026-07-04",
+      "date": "2026-07-03",
       "file": "chapters/chap2.txt"
+    }
+    {
+      "id": 3,
+      "title": "Chương 3: NGÀY TÔI NGỪNG QUAY ĐẦU",
+      "date": "2026-07-04",
+      "file": "chapters/chap3.txt"
     }
   ]
 }
