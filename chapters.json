@@ -31,6 +31,18 @@
       "title": "Chương 4: TÔI NUÔI ANH",
       "date": "2026-07-04",
       "file": "chapters/chap4.txt"
+    },
+    {
+      "id": 5,
+      "title": "Chương 5:  CĂN PHÒNG HAI MƯƠI MÉT VUÔNG",
+      "date": "2026-07-05",
+      "file": "chapters/chap5.txt"
+    },
+    {
+      "id": 6,
+      "title": "Chương 6:  LẦN NÀY CÓ HỢP ĐỒNG ",
+      "date": "2026-07-05",
+      "file": "chapters/chap6.txt"
     }
   ]
 }
