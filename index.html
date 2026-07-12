@@ -1181,6 +1181,38 @@ body.dark .chapter-item.active{
         scroll-behavior:auto!important;
     }
 }
+.identity-check{
+    margin:18px 0;
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px;
+    background:var(--surface2);
+    display:grid;
+    gap:8px;
+}
+
+.identity-title{
+    font-weight:700;
+    margin-bottom:4px;
+}
+
+.identity-check label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.identity-check input{
+    width:18px;
+    height:18px;
+}
+
+#loginBtn:disabled{
+    opacity:.55;
+    cursor:not-allowed;
+}
 </style>
 </head>
 
@@ -1217,7 +1249,23 @@ body.dark .chapter-item.active{
             <input class="input" id="loginPassword" placeholder="Mật khẩu" type="password"/>
         </div>
 
-        <button class="btn full" onclick="login()">Vào đọc truyện</button>
+       <div class="identity-check">
+    <div class="identity-title">Please enter the captcha code.</div>
+
+    <label><input type="checkbox" class="verify-check"> I am dog.</label>
+    <label><input type="checkbox" class="verify-check"> I am pig.</label>
+    <label><input type="checkbox" class="verify-check"> I am robot.</label>
+    <label><input type="checkbox" class="verify-check"> I am chicken.</label>
+    <label><input type="checkbox" class="verify-check"> I am cow.</label>
+    <label><input type="checkbox" class="verify-check"> I am zombie.</label>
+    <label><input type="checkbox" class="verify-check"> I am vampire.</label>
+    <label><input type="checkbox" class="verify-check"> I am girl.</label>
+    <label><input type="checkbox" class="verify-check"> I am gay...</label>
+</div>
+
+<button class="btn full" id="loginBtn" onclick="login()" disabled>
+Vào đọc truyện
+</button>
 
         <div class="note">
             tk:chủ web dz.
@@ -1782,7 +1830,25 @@ document.getElementById("loginPassword").addEventListener("keydown", function(e)
 });
 
 window.addEventListener("scroll", updateScrollProgress);
+const verifyBoxes=document.querySelectorAll(".verify-check");
+const loginBtn=document.getElementById("loginBtn");
 
+function updateVerify(){
+
+    let ok=true;
+
+    verifyBoxes.forEach(box=>{
+        if(!box.checked) ok=false;
+    });
+
+    loginBtn.disabled=!ok;
+}
+
+verifyBoxes.forEach(box=>{
+    box.addEventListener("change",updateVerify);
+});
+
+updateVerify();
 checkLogin();
 </script>
 
