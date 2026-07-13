@@ -90,7 +90,7 @@
       "id": 14,
       "title": "Chương 14:  SÚNG CHƯA PHUN LỬA",
       "date": "2026-07-13",
-      "file": "chapters/14.txt"
+      "file": "chapters/chap14.txt"
     },
     {
       "id": 15,
@@ -102,13 +102,13 @@
       "id": 16,
       "title": "Chương 16:  HỆ THỐNG KHÔNG PHẢI QUÀ TẶNG ",
       "date": "2026-07-13",
-      "file": "chapters/16.txt"
+      "file": "chapters/chap16.txt"
     },
     {
       "id": 17,
       "title": "Chương 17:  THIÊN HÀNH PHẢN KÍCH ",
       "date": "2026-07-13",
-      "file": "chapters/17.txt"
+      "file": "chapters/chap17.txt"
     }
   ]
 }
